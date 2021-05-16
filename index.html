@@ -39,6 +39,9 @@
      </center>
     </h1> 
     <p>  Click to play: </p>
+    <div id = "gamesList">
+      
+    </div>
     <ul>
     <li>
     <a href="TicTacToe/Game1.html">Tic Tac Toe</a>
@@ -49,6 +52,23 @@
     
     </ul>
     <script>
+    
+    function insertNewGame(linkOfGame, imageOfGame, nameOfGame) {
+    var para = document.createElement("p");
+    var image = document.createElement("img");
+    var hyperlink = document.createElement("a");
+    
+    image.src = imageOfGame;
+    hyperlink.innerHTML = nameOfGame;
+    hyperlink.href = hyperlink;
+    
+    para.appendChild(image);
+    para.appendChild(hyperlink);
+    document.getElementById("gamesList").appendChild(para);
+    
+    }
+    
+    insertNewGame("TicTacToe/Game1.html", "spaceship.png", "Tic Tac Toe");
     </script>
   </body>
 </html>
