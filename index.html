@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-    <title> Homepage </title>
-    <style>
+<head>
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <title> Homepage </title>
+  <style>
     body {
       background-color: black;
       color: white;
@@ -12,66 +12,65 @@
     h1 {
       color: red;
     }
-    
-    ul {
-      padding-left: 10vw;
-      color: yellow;
-    }
-    
     a:link {
+      display: inline-block;
       font-family: serif;
-      color: lightgreen;
+      color: white;
       text-decoration: none;
+      font-size: 20px;
+      background-color: #19b710;
+      padding-left:10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 4px;
     }
     a:visited {
       color: red;
     }
     a:active {
       color: violet;
-      }
-    p {
+    }
+    div {
+      display: block;
       max-width: 600px;
       max-height: 500px;
-      background-color: skyblue;
+      text-align: center;
     }
-    </style>
-  </head>
-  <body>
-    <h1> <center>
+  </style>
+</head>
+<body>
+  <h1> <center>
     Welcome
-     </center>
-    </h1> 
-    <h2>  Click to play: </h2>
-    <div id = "gamesList">
+  </center>
+  </h1>
+  <div id="gamesList">
+
+  </div>
+  <script>
+
+    function insertNewGame(linkOfGame, imageOfGame) {
+      var para = document.createElement("div");
+      var image = new Image(300, 450);
+      var hyperlink = document.createElement("a");
+      var lnBreak = document.createElement("br");
       
-    </div>
-    <ul>
-    <li>
-    <a href="TicTacToe/Game1.html">Tic Tac Toe</a>
-    </li>
-    <li>
-    <a href="404.html">Galaxy Shooter</a>
-    </li>
-    
-    </ul>
-    <script>
-    
-    function insertNewGame(linkOfGame, imageOfGame, nameOfGame) {
-    var para = document.createElement("p");
-    var image = document.createElement("img");
-    var hyperlink = document.createElement("a");
-    
-    image.src = imageOfGame;
-    hyperlink.innerHTML = nameOfGame;
-    hyperlink.href = linkOfGame;
-    
-    para.appendChild(image);
-    para.appendChild(hyperlink);
-    document.getElementById("gamesList").appendChild(para);
-    
+      image.src = imageOfGame;
+      hyperlink.innerHTML = "Play Now";
+      hyperlink.href = linkOfGame;
+      
+      para.appendChild(image);
+      para.appendChild(lnBreak);
+      para.appendChild(lnBreak);
+      para.appendChild(lnBreak);
+      para.appendChild(hyperlink);
+      para.style.margin = "20px";
+      document.getElementById("gamesList").appendChild(para);
+
     }
-    
-    insertNewGame("TicTacToe/Game1.html", "TicTacToe/tttLogo.jpg", "Tic Tac Toe");
-    </script>
-  </body>
+
+    insertNewGame("TicTacToe/Game1.html", "TicTacToe/tttLogo.jpg");
+    insertNewGame("GalaxyShooter/Game2.html", "GalaxyShooter/gsLogo.jpg");
+  </script>
+</body>
 </html>
