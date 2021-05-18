@@ -10,7 +10,8 @@
       font-family: Sans-Serif;
     }
     h1 {
-      color: red;
+      background-color: #e14444;
+      color: white;
     }
     a:link {
       display: inline-block;
@@ -29,11 +30,18 @@
       color: white;
     }
     div {
-      display: block;
-      max-width: 600px;
-      max-height: 500px;
       text-align: center;
     }
+   #gamesList{
+     display: flex;
+     flex-wrap: wrap;
+   }
+   @media screen and (min-aspect-ratio: 9/17) and (max-width: 600px) {
+     body{
+     background-color: blue;
+       
+     }
+   }
   </style>
 </head>
 <body>
