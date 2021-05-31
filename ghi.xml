@@ -1,0 +1,403 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<breakfast_menu>
+
+<food>
+
+    <name>Belgian Waffles</name>
+
+    <price>$5.95</price>
+
+    <description>
+
+   Two of our famous Belgian Waffles with plenty of real maple syrup
+
+   </description>
+
+    <calories>650</calories>
+
+</food>
+
+<food>
+
+    <name>Strawberry Belgian Waffles</name>
+
+    <price>$7.95</price>
+
+    <description>
+
+    Light Belgian waffles covered with strawberries and whipped cream
+
+    </description>
+
+    <calories>900</calories>
+
+</food>
+
+<food>
+
+    <name>Berry-Berry Belgian Waffles</name>
+
+    <price>$8.95</price>
+
+    <description>
+
+    Belgian waffles covered with assorted fresh berries and whipped cream
+
+    </description>
+
+    <calories>900</calories>
+
+</food>
+
+<food>
+
+    <name>French Toast</name>
+
+    <price>$4.50</price>
+
+    <description>
+
+    Thick slices made from our homemade sourdough bread
+
+    </description>
+
+    <calories>600</calories>
+
+</food>
+
+<food>
+
+    <name>Homestyle Breakfast</name>
+
+    <price>$6.95</price>
+
+    <description>
+
+    Two eggs, bacon or sausage, toast, and our ever-popular hash browns
+
+    </description>
+
+    <calories>950</calories>
+
+</food>
+
+</breakfast_menu>
+
+ 
+
+simple.xml
+
+<breakfast_menu>
+
+   <food>
+
+       <name>Belgian Waffles</name>
+
+       <price>$5.95</price>
+
+       <description>Two of our famous Belgian Waffles with plenty of real maple syrup</description>
+
+       <calories>650</calories> </food>
+
+   <food>
+
+       <name>Strawberry Belgian Waffles</name>
+
+       <price>$7.95</price>
+
+       <description>Light Belgian waffles covered with strawberries and whipped cream</description>
+
+       <calories>900</calories> </food>
+
+   <food>
+
+       <name>Berry-Berry Belgian Waffles</name>
+
+       <price>$8.95</price>
+
+       <description>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
+
+       <calories>900</calories> </food>
+
+   <food>
+
+       <name>French Toast</name>
+
+       <price>$4.50</price>
+
+       <description>Thick slices made from our homemade sourdough bread</description>
+
+       <calories>600</calories> </food>
+
+   <food>
+
+       <name>Homestyle Breakfast</name>
+
+       <price>$6.95</price>
+
+       <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+
+       <calories>950</calories> </food>
+
+</breakfast_menu>
+
+
+
+
+XML Services
+
+We recommend reading this tutorial, in the sequence listed in the left menu.
+
+Learn by Examples
+
+Examples are better than 1000 words. Examples are often easier to understand than text explanations.
+
+This tutorial supplements all explanations with clarifying "Try it Yourself" examples.
+
+XML Examples
+
+AJAX Examples
+
+DOM Examples
+
+XPath Examples
+
+XSLT Examples
+
+If you try all the examples, you will learn a lot about XML in a very short time!
+
+XML Quiz Test
+
+Test your XML skills at W3Schools!
+
+Start the XML Quiz!
+
+Kickstart your career
+
+Get certified by completing the XML course
+
+w
+
+3
+
+s
+
+c
+
+h
+
+o
+
+o
+
+l
+
+s
+
+C
+
+E
+
+R
+
+T
+
+I
+
+F
+
+I
+
+E
+
+D
+
+.
+
+2
+
+0
+
+2
+
+1
+
+COLOR PICKER
+
+colorpicker
+
+LIKE US
+
+  
+
+Get certified
+
+by completing
+
+a course today!
+
+w
+
+3
+
+s
+
+c
+
+h
+
+o
+
+o
+
+l
+
+s
+
+C
+
+E
+
+R
+
+T
+
+I
+
+F
+
+I
+
+E
+
+D
+
+.
+
+2
+
+0
+
+2
+
+1
+
+CODE GAME
+
+Code Game
+
+Certificates
+
+Top Tutorials
+
+HTML Tutorial
+
+CSS Tutorial
+
+JavaScript Tutorial
+
+How To Tutorial
+
+SQL Tutorial
+
+Python Tutorial
+
+W3.CSS Tutorial
+
+Bootstrap Tutorial
+
+PHP Tutorial
+
+Java Tutorial
+
+C++ Tutorial
+
+jQuery Tutorial
+
+Top References
+
+HTML Reference
+
+CSS Reference
+
+JavaScript Reference
+
+SQL Reference
+
+Python Reference
+
+W3.CSS Reference
+
+Bootstrap Reference
+
+PHP Reference
+
+HTML Colors
+
+Java Reference
+
+Angular Reference
+
+jQuery Reference
+
+Top Examples
+
+HTML Examples
+
+CSS Examples
+
+JavaScript Examples
+
+How To Examples
+
+SQL Examples
+
+Python Examples
+
+W3.CSS Examples
+
+Bootstrap Examples
+
+PHP Examples
+
+Java Examples
+
+XML Examples
+
+jQuery Examples
+
+Web Courses
+
+HTML Course
+
+CSS Course
+
+JavaScript Course
+
+Front End Course
+
+SQL Course
+
+Python Course
+
+PHP Course
+
+jQuery Course
+
+Java Course
+
+C++ Course
+
+C# Course
+
+XML Course
+
+W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using W3Schools, you agree to have read and accepted our terms of use, cookie and privacy policy.
+
+Copyright 1999-2021 by Refsnes Data. All Rights Reserved.
+
+W3Schools is Powered by W3.CSS.
+
