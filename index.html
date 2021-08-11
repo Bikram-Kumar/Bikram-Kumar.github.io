@@ -2,80 +2,28 @@
 <html>
 <head>
   <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <meta name="theme-color" content="#d2d9a4" />
   <title> Homepage </title>
-  <style>
-    body {
-      background-color: black;
-      color: white;
-      font-family: Sans-Serif;
-    }
-    h1 {
-      background-color: #e14444;
-      color: white;
-    }
-    a:link {
-      display: inline-block;
-      font-family: serif;
-      color: white;
-      text-decoration: none;
-      font-size: 20px;
-      background-color: #19b710;
-      padding-left:10px;
-      padding-right: 10px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      border-radius: 4px;
-    }
-    a:visited, a:active {
-      color: white;
-    }
-    div {
-      text-align: center;
-    }
-   #gamesList{
-     display: flex;
-     flex-wrap: wrap;
-   }
-   @media screen and (min-aspect-ratio: 9/17) and (max-width: 600px) {
-     body{
-     background-color: blue;
-       
-     }
-   }
-  </style>
+  <link rel="stylesheet" href="/Stylesheets/basic-styles.css" type="text/css" media="all" />
+  <script src="/Others/jquery-3.6.0.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-  <h1> <center>
-    Welcome
-  </center>
-  </h1>
-  <div id="gamesList">
-
-  </div>
-  <script>
-
-    function insertNewGame(linkOfGame, imageOfGame) {
-      var para = document.createElement("div");
-      var image = new Image(300, 450);
-      var hyperlink = document.createElement("a");
-      var lnBreak = document.createElement("br");
-      
-      image.src = imageOfGame;
-      hyperlink.innerHTML = "Play Now";
-      hyperlink.href = linkOfGame;
-      
-      para.appendChild(image);
-      para.appendChild(lnBreak);
-      para.appendChild(lnBreak);
-      para.appendChild(lnBreak);
-      para.appendChild(hyperlink);
-      para.style.margin = "20px";
-      document.getElementById("gamesList").appendChild(para);
-
-    }
-
-    insertNewGame("TicTacToe/Game1.html", "TicTacToe/tttLogo.jpg");
-    insertNewGame("GalaxyShooter/Game2.html", "GalaxyShooter/gsLogo.jpg");
+  <div id="nav-bar"></div>
+  <script type="text/javascript" charset="utf-8">
+    $("#nav-bar").load("/Others/nav-bar.html");
   </script>
+  
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse nemo mollitia suscipit quam, error nesciunt sint incidunt, dolores, vitae neque qui quis hic repudiandae eaque officia quo natus quae culpa.
+  </p>
 </body>
 </html>

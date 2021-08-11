@@ -1,0 +1,25 @@
+body {
+  background-color: #e5dbcd;
+  font-family: Sans-Serif;
+  margin-left: 0;
+}
+
+nav {
+  background: black;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+a:link {
+  display: inline-block;
+  font-family: serif;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:visited, a:active {
+  color: white;
+}
+p {
+  margin: 3vmin;
+}
